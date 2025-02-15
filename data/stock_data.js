@@ -62,6 +62,13 @@ const stocksData = [
     trend: 'Neutral',
     id: 9,
 },
+{
+    name: 'Shadow Panther',
+    imgLink: 'https://cdn.discordapp.com/avatars/692068595911622687/a6b0bf5235ca86c129732be79a805229.webp?size=1024&format=webp&width=640&height=640',
+    price: 10,
+    trend: 'Neutral',
+    id: 10,
+},
 ];
 
 export default stocksData;
