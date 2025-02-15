@@ -3,7 +3,7 @@ import stocksData from `./data/stock_data.js?v=${Date.now()}`;
 
 
 const list = document.querySelector('.stocks-list');
-let data = JSON.parse(localStorage.getItem("data")) || { money: 1000, stocks: [] };
+let data = JSON.parse(localStorage.getItem("data")) || { money: 100, stocks: [] };
 
 function getStocksFromid(id) {
     const stock = data.stocks.find(stock => stock.id === id);
