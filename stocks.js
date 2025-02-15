@@ -1,4 +1,4 @@
-import stocksData from `./data/stock_data.js`;
+import stocksData from "./data/stock_data.js";
 
 
 
