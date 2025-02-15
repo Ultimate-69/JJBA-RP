@@ -1,4 +1,4 @@
-import stocksData from `./data/stock_data.js?v=${Date.now()}`;
+import stocksData from `./data/stock_data.js`;
 
 
 
