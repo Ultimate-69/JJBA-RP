@@ -69,6 +69,13 @@ const stocksData = [
     trend: 'Neutral',
     id: 10,
 },
+{
+    name: 'Blueberry',
+    imgLink: 'https://cdn.discordapp.com/avatars/1277591940510126157/3ac91cf21b8c433d5c03f6912ec9ba51.webp?size=1024&format=webp&width=640&height=640',
+    price: 10,
+    trend: 'Neutral',
+    id: 11,
+}
 ];
 
 export default stocksData;
