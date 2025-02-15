@@ -39,6 +39,10 @@ body {
     opacity: 0.8;
 }
 
+.tabs a {
+    text-decoration: none;
+}
+
 .selected {
     opacity: 1;
     cursor: default !important;
@@ -60,4 +64,71 @@ main {
     min-height: 100px;
     min-width: 150px;
     text-align: center;
+}
+
+#stocks-text, #money-text {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.stocks-list {
+    list-style: none;
+    padding: 0;
+}
+
+.stock-object {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(94, 89, 89);
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 0;
+}
+
+.stock-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 3px solid white;
+}
+
+.stock-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+.stock-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.stock-details p {
+    margin: 0;
+}
+
+.stock-object button {
+    background-color: rgb(16, 148, 243);
+    color: white;
+    border: none;
+    font-size: 20px;
+    width: 130px;
+    height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.1s;
+}
+
+.stock-object button:hover {
+    opacity: 0.8;
+}
+
+.m {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }

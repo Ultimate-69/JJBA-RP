@@ -1,5 +1,5 @@
 const moneyText = document.querySelector("#money-text");
-let money = 0;
+let money = 100;
 moneyText.innerHTML = `Money: \$${money}`;
 
 const stocksText = document.querySelector("#stocks-text");
