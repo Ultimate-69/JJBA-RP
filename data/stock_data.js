@@ -47,6 +47,13 @@ const stocksData = [
     price: 10,
     trend: 'Neutral',
     id: 7,
+},
+{
+    name: 'Barrel',
+    imgLink: 'https://cdn.discordapp.com/avatars/504762106802077706/fc5d2af01e67a5c3c547b0e87cfb3936.webp?size=1024&format=webp&width=640&height=640',
+    price: 10,
+    trend: 'Neutral',
+    id: 8,
 }
 ];
 
