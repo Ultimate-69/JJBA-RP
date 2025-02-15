@@ -1,4 +1,6 @@
-import stocksData from "./data/stock_data.js";
+import stocksData from `./data/stock_data.js?v=${Date.now()}`;
+
+
 
 const list = document.querySelector('.stocks-list');
 let data = JSON.parse(localStorage.getItem("data")) || { money: 1000, stocks: [] };
