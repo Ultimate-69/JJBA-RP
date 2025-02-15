@@ -54,7 +54,14 @@ const stocksData = [
     price: 10,
     trend: 'Neutral',
     id: 8,
-}
+},
+{
+    name: 'Zoom',
+    imgLink: 'https://cdn.discordapp.com/avatars/659064316938551356/c94783a5122b2f401f38bb1294f1767d.webp?size=1024&format=webp&width=640&height=640',
+    price: 10,
+    trend: 'Neutral',
+    id: 9,
+},
 ];
 
 export default stocksData;
