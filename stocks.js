@@ -1,10 +1,5 @@
 import stocksData from "./data/stock_data.js";
 
-if (!sessionStorage.getItem("refreshed")) {
-    sessionStorage.setItem("refreshed", "true");
-    location.href = location.href + "?nocache=" + new Date().getTime();
-}
-
 const list = document.querySelector('.stocks-list');
 let data = JSON.parse(localStorage.getItem("data")) || { money: 100, stocks: [] };
 
