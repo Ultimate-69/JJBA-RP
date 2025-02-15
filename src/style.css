@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+.header-container p {
+    display: flex;
+    font-size: 32px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.tabs {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.tabs a {
+    text-align: center;
+    background-color: rgb(16, 148, 243);
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 120px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.1s;
+    font-size: 17px;
+}
+
+.tabs a:hover {
+    opacity: 0.8;
+}
+
+.selected {
+    opacity: 1;
+    cursor: default !important;
+}
+
+.selected:hover {
+    opacity: 1 !important;
+}
+
+main {
+    padding: 10px;
+}
+
+.portfolio {
+    background-color: rgb(16, 148, 243);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    min-height: 100px;
+    min-width: 150px;
+    text-align: center;
+}
