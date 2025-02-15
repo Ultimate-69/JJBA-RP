@@ -51,6 +51,8 @@ function sell(id) {
 }
 
 function renderStocks() {
+    const moneyHolder = document.querySelector('.money-text');
+    moneyHolder.innerHTML = `Money: \$${data.money}`
     let html = '';
     stocksData.forEach((value) => {
         html += `
