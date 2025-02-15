@@ -41,6 +41,13 @@ const stocksData = [
     trend: 'Decreasing',
     id: 6,
 },
+{
+    name: 'Vesperian',
+    imgLink: 'https://cdn.discordapp.com/avatars/970152716938649650/b1d8f6d02e8e6b52c6e0543a46b82123.webp?size=1024&format=webp&width=640&height=640',
+    price: 10,
+    trend: 'Neutral',
+    id: 7,
+}
 ];
 
 export default stocksData;
