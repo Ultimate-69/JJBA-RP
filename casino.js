@@ -223,14 +223,12 @@ function stand()
 
     if (standCount >= 2)
     {
-        playerAmount = 0;
-        dealerAmount = 0;
-
         // If dealer greater than player, player loses. Else, player wins.
         if (dealerAmount > playerAmount && playerAmount !== 21)
         {
             // Lose
             console.log('Lose');
+            winStatus = 0;
         }
         else if (playerAmount > dealerAmount && playerAmount <= 21)
         {
@@ -241,10 +239,19 @@ function stand()
         }
         else 
         {
+            if (playerAmount === dealerAmount)
+            {
             // Tie
             console.log('Tie');
             cash += bidAmount;
             winStatus = 2;
+            }
+            else
+            {
+                // Lose
+                console.log('Lose');
+                winStatus = 0;
+            }
         }
 
         bidAmount = 0;
@@ -266,6 +273,9 @@ function stand()
             const status = document.querySelector('.win-status');
             status.innerHTML = "You Lose!";
         }
+
+        playerAmount = 0;
+        dealerAmount = 0;
 
         data.money = cash;
         Save();
