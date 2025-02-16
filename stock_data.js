@@ -38,8 +38,8 @@ const stocksData = [
 {
     name: 'Behappy',
     imgLink: 'https://cdn.discordapp.com/avatars/784138663901790248/ee076a5397ff24e4cca992b2f0285f32.webp?size=1024&format=webp&width=640&height=640',
-    price: 4,
-    trend: 'Decreasing',
+    price: 10,
+    trend: 'Neutral',
     id: 6,
 },
 {
