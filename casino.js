@@ -148,6 +148,8 @@ function stand()
     if (dealerAmount < 17)
     {
         dealerAmount += Math.floor(Math.random() * 10) + 1;
+
+
         
         let result = 0;
         if (dealerAmount === 21 && playerAmount !== 21)
@@ -161,6 +163,8 @@ function stand()
         else {
             result = 10;
         }
+
+
 
         if (result != 10)
         {
@@ -293,7 +297,7 @@ function spin()
     if (num === 10 || fakeNum1 === fakeNum2 && fakeNum2 === fakeNum3)
     {
         roll.innerHTML = "6 6 6";
-        cash += bidAmount * 2;
+        cash += bidAmount * 5;
         bidAmount = 0;
     }
     else
