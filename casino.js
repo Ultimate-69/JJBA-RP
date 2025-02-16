@@ -239,19 +239,10 @@ function stand()
         }
         else 
         {
-            if (playerAmount === dealerAmount)
-            {
             // Tie
             console.log('Tie');
             cash += bidAmount;
             winStatus = 2;
-            }
-            else
-            {
-                // Lose
-                console.log('Lose');
-                winStatus = 0;
-            }
         }
 
         bidAmount = 0;
