@@ -33,6 +33,7 @@ const stocksData = [
     price: 10,
     trend: 'Neutral',
     id: 5,
+    hidden: true,
 },
 {
     name: 'Behappy',

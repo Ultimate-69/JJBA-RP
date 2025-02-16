@@ -1,4 +1,4 @@
-import stocksData from "./stock_data2.js";
+import stocksData from "./stock_data3.js";
 
 const list = document.querySelector('.stocks-list');
 let data = JSON.parse(localStorage.getItem("data")) || { money: 100, stocks: [] };
@@ -55,6 +55,10 @@ function renderStocks() {
     moneyHolder.innerHTML = `Money: \$${data.money}`
     let html = '';
     stocksData.forEach((value) => {
+        if (value.hidden)
+        {
+            return;
+        }
         html += `
         <li class="stock-object">
             <img class="stock-img" src="${value.imgLink}">
