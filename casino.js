@@ -54,7 +54,7 @@ function bid(amount) {
     }
     else if (amount == -1)
     {
-        cash = bidAmount;
+        cash += bidAmount;
         bidAmount = 0;
     }
     if (amount > 0) { 
