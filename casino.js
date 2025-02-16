@@ -69,8 +69,8 @@ function getWin()
         }
         else if (playerAmount > 21 && dealerAmount > 21)
         {
-            // Tie
-            return 2;
+            // Lose
+            return 0;
         }
     }
 
@@ -159,6 +159,10 @@ function stand()
         else if (dealerAmount >= 21 && playerAmount <= 21)
         {
             result = 1;
+        }
+        else if (dealerAmount === 17 && playerAmount > dealerAmount && playerAmount <= 21)
+        {
+            result = 0;
         }
         else {
             result = 10;
