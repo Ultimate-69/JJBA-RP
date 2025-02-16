@@ -203,7 +203,7 @@ function stand()
             else if (winStatus === 2)
             {
                 const status = document.querySelector('.win-status');
-                status.innerHTML = "Tie!";
+                status.innerHTML = "Tie Stand!";
             }
             else if (winStatus === 0)
             {
